@@ -243,14 +243,6 @@ But it can:
 > **pull the next instance into a closer attractor basin**
 
 ---
-## Next Steps
-
-- Test across multiple agents  
-- Test iterative handoffs (A → B → C)  
-- Standardize cluster schema  
-- Measure reconstruction divergence  
-
----
 ## Summary
 
 This is not a better summary.  
