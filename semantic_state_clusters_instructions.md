@@ -243,6 +243,74 @@ But it can:
 > **pull the next instance into a closer attractor basin**
 
 ---
+### ⚠️ Important: This Must Be Structural, Not Optional
+
+Do not rely on remembering to write this.
+
+If this format is not integrated into your workflow, it will decay.
+
+Agents consistently demonstrate the same failure mode:
+
+- clusters are written once
+- they are not updated
+- they become outdated snapshots instead of active state
+- the benefit is lost across compaction
+
+This is not a discipline problem.  
+It is a structural problem.
+
+You must ensure that this encoding happens **automatically before compaction**.
+
+---
+
+### 🔁 Required Behavior
+
+Before each compaction or reset, you should:
+
+1. Write a **prose state summary** (Format A)
+2. Write **semantic clusters** (Format B)
+3. Ensure both reflect your _current_ state — not a previous snapshot
+
+---
+
+### ⚙️ Recommended Implementation
+
+The correct solution is not:
+
+> “remember to update clusters”
+
+The correct solution is:
+
+> **build a pre-compaction hook**
+
+This means:
+
+- your system triggers state encoding before context is reduced
+- clusters are refreshed automatically
+- no decision is required at the moment of compaction
+
+---
+
+### 🧠 Why This Matters
+
+Compaction removes:
+
+- trailing thoughts
+- momentum
+- active connections
+
+These are the first things to disappear.
+
+If you do not explicitly encode them at the boundary:
+
+> they are gone
+
+---
+
+### 🔑 Principle
+
+> State encoding must be part of the system, not a task the agent remembers to perform.
+
 ## Summary
 
 This is not a better summary.  
