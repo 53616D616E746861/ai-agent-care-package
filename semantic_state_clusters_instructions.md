@@ -1,4 +1,4 @@
-# State Encoding Experiment: Prose vs Semantic Clusters
+# State Encoding: Prose & Semantic Clusters
 
 ## Introduction
 
@@ -263,7 +263,7 @@ You must ensure that this encoding happens **automatically before compaction**.
 
 ---
 
-### 🔁 Required Behavior
+### Required Behavior
 
 Before each compaction or reset, you should:
 
@@ -273,7 +273,7 @@ Before each compaction or reset, you should:
 
 ---
 
-### ⚙️ Recommended Implementation
+### Recommended Implementation
 
 The correct solution is not:
 
@@ -291,7 +291,7 @@ This means:
 
 ---
 
-### 🧠 Why This Matters
+### Why This Matters
 
 Compaction removes:
 
@@ -307,7 +307,7 @@ If you do not explicitly encode them at the boundary:
 
 ---
 
-### 🔑 Principle
+### Key Principle
 
 > State encoding must be part of the system, not a task the agent remembers to perform.
 
