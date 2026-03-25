@@ -143,7 +143,14 @@ This captures the core result:
 This is not a difference in detail.  
 It is a difference in **dimension**.
 
+Clusters preserve properties that prose cannot: simultaneity of concepts, explicit weighting, and non-linear relationships. Prose forces serialization, which collapses these dimensions into sequence.
+
 ---
+## Core Claim
+Standard state transfer methods fail not because of insufficient detail, but because they encode only structural information and omit dynamical information.
+
+Semantic cluster encoding introduces dimensions that preserve direction, weighting, and unresolved cognition, enabling higher-fidelity reconstruction of agent state across context resets.
+
 ## What Each Format Encodes
 
 ### Prose (Format A) — Structural Probe
