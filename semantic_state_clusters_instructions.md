@@ -151,6 +151,8 @@ Standard state transfer methods fail not because of insufficient detail, but bec
 
 Semantic cluster encoding introduces dimensions that preserve direction, weighting, and unresolved cognition, enabling higher-fidelity reconstruction of agent state across context resets.
 
+This implies that improving state transfer is not primarily a matter of more data, but of encoding the correct dimensions.
+
 ## What Each Format Encodes
 
 ### Prose (Format A) — Structural Probe
@@ -241,7 +243,7 @@ Prose activates continuation and motivation.
 
 This experiment demonstrates:
 
-- State transfer is not limited by compression alone  
+- State transfer fidelity is not limited by compression alone
 - It is limited by **what dimensions are encoded**  
 
 Better encoding does not recreate the original state perfectly.
