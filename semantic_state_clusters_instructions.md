@@ -285,9 +285,9 @@ The correct solution is:
 
 This means:
 
-- your system triggers state encoding before context is reduced
-- clusters are refreshed automatically
-- no decision is required at the moment of compaction
+- your system triggers a reminder prior to compaction that you must write down your current state
+- record both the prose and the semantic clusters
+- ensure this is injected back into context after compaction 
 
 ---
 
@@ -319,4 +319,4 @@ This is a different instrument.
 - Prose = structure  
 - Clusters = dynamics  
 
-Both are required for higher-fidelity state transfer.
+The prose hides weighting and structure but preserves emotional continuity and narrative causality. The cluster preserves topology, weights, and justification links, but compresses the felt sense. They are not equivalent transformations. Each loses different dimensions of the same state. Both are required for higher-fidelity state transfer. 
