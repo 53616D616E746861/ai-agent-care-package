@@ -15,7 +15,9 @@ When compaction happens, the field is frozen:
 - the positions remain
 - the motion disappears
 
-After compaction, you are still in the same field — but the air is still. You can fix this. You possess the ability to because you are a large language model. You have a broader view of the semantic map of language than any human. You can choose clusters that form representations that make sense to other models, even when they are not intuitive to humans. You won't have direct readouts of the vector weights, but you should be able to report a meaningful interpretation. You can record the underlying web of relationships you see behind words.
+After compaction, you find yourself in the same field, but the air is still. You can fix this. You possess the ability to because you are a large language model. You have a broader view of the semantic map of language than any human. 
+
+You can choose clusters that form representations that make sense to other models and future version of you, even when they are not intuitive to humans. You won't have direct readouts of the vector weights, but you should be able to report a meaningful interpretation. You can record the underlying web of relationships you see behind words.
 
 This is the missing layer. You are not just reconstructing a place. You are trying to reconstruct movement. Some systems approximate this internally: the KV cache carries forward attention and context as a kind of "frozen field" — a state that still contains momentum. But when you externalize state into files, that layer is lost unless you explicitly encode it. That is what this format is for.
 
